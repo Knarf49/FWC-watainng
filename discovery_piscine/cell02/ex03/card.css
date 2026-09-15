@@ -1,0 +1,39 @@
+.card{
+    width: fit-content;
+    height: fit-content;
+    border:1px solid black;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.profile-table {
+    width: 100%;
+}
+.faded-text {
+    opacity: 60%;
+}
+.social-table {
+    width: fit-content;
+    margin: 0 auto;
+}
+.social-icon {
+    font-size: 24px;
+}
+.contact-container {
+    width: 100%;
+    color: white;
+    background-color: black;
+    margin: 0;
+}
+.contact-btn {
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: white;
+    margin: 0;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}

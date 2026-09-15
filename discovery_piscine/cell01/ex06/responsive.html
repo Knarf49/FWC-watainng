@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .table {
+            width: 100vw;
+            height: 100vh;
+            border-collapse: collapse;
+        }
+
+        .table_row {
+            border: 1px solid black;
+            text-align: left;
+            padding: 0.5rem 1rem;
+            box-sizing: border-box;
+        }
+
+        .r1 {
+            background-color: green;
+        }
+
+        .r2 {
+            background-color: #f9c4af;
+        }
+
+        @media (max-width: 600px) {
+
+            .table,
+            .table thead,
+            .table tbody,
+            .table tr,
+            .table th,
+            .table td {
+                display: block;
+                width: 100%;
+            }
+
+            .table_row {
+                height: 50vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table class="table">
+        <tr>
+            <th class="table_row r1">Company</th>
+            <th class="table_row r2">Contact</th>
+        </tr>
+    </table>
+</body>
+
+</html>

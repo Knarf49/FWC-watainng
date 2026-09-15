@@ -1,0 +1,37 @@
+.parallax {
+    min-height: 500px;
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+    
+}
+.parallax span{
+    font-size: 4rem;
+    font-family: "Google Sans", sans-serif;
+}
+
+.bg-img1{
+    background-image: url("S1e19_bill_snap.webp");
+}
+.bg-img2{
+    background-image: url("wm.jpg");
+}
+
+.middle-section {
+    height: 500px;
+    background-color: black;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    align-content: center;
+    font-family: 'Google Sans', sans-serif;
+}
+
+.red-text {
+    color: red;
+}
