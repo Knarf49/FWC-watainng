@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rush Portfolio</title>
+    <link rel="stylesheet" href="global.css">
+</head>
+<body class="portfolio-layout">
+    <nav id="navbar">
+        <div>
+            <a href="index.html">My Portfolio</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#showcase">Showcase</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="section-padding">
+        <div>
+            <div>
+                <img src="https://via.placeholder.com/250" alt="Frank's Profile Picture">
+            </div>
+            <div>
+                <h2>About Me</h2>
+                <h3>Frank</h3>
+                <p>Hello! I am Frank. I am passionate about technology and software development. I enjoy learning new skills and applying them to solve real-world problems.</p>
+                <h4>Education</h4>
+                <ul>
+                    <li><strong>University Name</strong> - King Mongkut's Institute of Technology Ladkrabang</li>
+                    <li><strong>Department</strong> - Department of Computer Engineering, School of Engineering, King Mongkut's Institute of Technology Ladkrabang</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="showcase" class="bg-light-gray section-padding">
+        <div>
+            <h2>Showcase</h2>
+            
+            <div>
+                <h4>Skills</h4>
+                <div>
+                    <div>
+                        <ul>
+                            <li>HTML5 & CSS3</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>Bootstrap 5</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>C</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>Go</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h4>Portfolio / Projects</h4>
+                <div id="showcase-container"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <h2>Contact Me</h2>
+        <div>
+            <div>
+                <p>Feel free to reach out to me through my social media channels:</p>
+                <div>
+                    <a href="https://github.com/Knarf49" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" width="50" height="50">
+                        <div>GitHub</div>
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="50" height="50">
+                        <div>LinkedIn</div>
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="50" height="50">
+                        <div>Instagram</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Frank. All rights reserved.</p>
+    </footer>
+
+    <!-- project-card-template -->
+    <template id="project-card-template">
+        <div>
+            <div>
+                <div>
+                    <h6 class="category-text" style="font-size: 0.8rem;"></h6>
+                    <h5 class="title-text"></h5>
+                    <p class="desc-text"></p>
+                </div>
+                <div>
+                    <p class="tech-text" style="font-size: 0.85rem;"><strong>Tech:</strong> <span></span></p>
+                    <a href="#" target="_blank" class="github-link">
+                        View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="portfolio.js"></script>
+</body>
+</html>

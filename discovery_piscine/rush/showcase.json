@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "CE-Boostup-XIV's Frontend",
+    "description": "Code submittion website for CE-Boostup-XIV camp",
+    "tech_stack": ["Next.js"],
+    "repository_name": "CE-Boostup-XIV-Frontend",
+    "category": "Education"
+  },
+  {
+    "id": 2,
+    "title": "Moom Aroi POS",
+    "description": "Noodle restaurant POS",
+    "tech_stack": ["SvelteKit", "Go", "sqlite"],
+    "repository_name": "Moom-aroi",
+    "category": "Saas"
+  },
+
+  {
+    "id": 3,
+    "title": "S36-bot",
+    "description": "AI chatbot for delivery service.",
+    "tech_stack": ["html", "css", "js", "Python", "ollama"],
+    "repository_name": "AI Chatbot",
+    "category": "AI"
+  },
+  {
+    "id": 4,
+    "title": "FitLife Smart Gym",
+    "description": "แอปพลิเคชันสำหรับสายสุขภาพและการจัดการยิม มี Use case การใช้งานในชีวิตประจำวันที่ชัดเจน",
+    "tech_stack": ["Python"],
+    "repository_name": "FitLife-Smart-Gym",
+    "category": "Health & Fitness"
+  }
+]
