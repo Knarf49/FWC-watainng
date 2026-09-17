@@ -55,29 +55,7 @@
 
             <div class="projects-block">
                 <h4 class="block-title">Portfolio / Projects</h4>
-                <div class="projects-grid">
-                    <div class="proj-card">
-                        <img src="./images/jipakkaw/Mindy's_fanmeet.png" class="project-img" alt="Producer">
-                        <div class="proj-card-body">
-                            <h5 class="title-text">Producer</h5>
-                            <p class="desc-text">Mindy's Fansmeet Music Producer / Co-director</p>
-                        </div>
-                    </div>
-                    <div class="proj-card">
-                        <img src="./images/jipakkaw/บัลลังก์หมอลำ.png" class="project-img" alt="Sound Engineer">
-                        <div class="proj-card-body">
-                            <h5 class="title-text">Sound Engineer</h5>
-                            <p class="desc-text">record / edit เสียง รายการ บัลลังก์หมอลำ ช่อง 7HD</p>
-                        </div>
-                    </div>
-                    <div class="proj-card">
-                        <img src="./images/jipakkaw/GELBOYS.png" class="project-img" alt="Acting">
-                        <div class="proj-card-body">
-                            <h5 class="title-text">[Acting]</h5>
-                            <p class="desc-text">รับบท ฉวน ชีรีย์เรื่อง GELBOYS ss1/2</p>
-                        </div>
-                    </div>
-                </div>
+                <div id="showcase-container" class="projects-grid" data-json="j_proj.json"></div>
             </div>
         </div>
     </section>
@@ -103,5 +81,18 @@
     <footer>
         <p>&copy; 2026 Jirapat Pakkawin. All rights reserved.</p>
     </footer>
+    <!-- project-card-template -->
+    <template id="project-card-template">
+        <div class="proj-card">
+            <img src="" class="project-img" alt="Project image">
+            <div class="proj-card-body">
+                <h5 class="title-text"></h5>
+                <p class="desc-text"></p>
+            </div>
+        </div>
+    </template>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="portfolio.js"></script>
 </body>
 </html>
