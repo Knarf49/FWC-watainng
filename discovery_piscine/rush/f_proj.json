@@ -5,6 +5,7 @@
     "description": "Code submittion website for CE-Boostup-XIV camp",
     "tech_stack": ["Next.js"],
     "repository_name": "CE-Boostup-XIV-Frontend",
+    "image_url": "./images/watainng/ceboostup.svg",
     "category": "Education"
   },
   {
@@ -13,6 +14,7 @@
     "description": "Noodle restaurant POS",
     "tech_stack": ["SvelteKit", "Go", "sqlite"],
     "repository_name": "Moom-aroi",
+    "image_url": "./images/watainng/Moom-aroi-pos.png",
     "category": "Saas"
   },
 
@@ -22,14 +24,16 @@
     "description": "AI chatbot for delivery service.",
     "tech_stack": ["html", "css", "js", "Python", "ollama"],
     "repository_name": "AI Chatbot",
+    "image_url": "./images/watainng/S36-bot.png",
     "category": "AI"
   },
   {
     "id": 4,
     "title": "FitLife Smart Gym",
-    "description": "แอปพลิเคชันสำหรับสายสุขภาพและการจัดการยิม มี Use case การใช้งานในชีวิตประจำวันที่ชัดเจน",
+    "description": "An Python mcp connect to LLM",
     "tech_stack": ["Python"],
     "repository_name": "FitLife-Smart-Gym",
+    "image_url": "./images/watainng/Fitlife-smartgym.png",
     "category": "Health & Fitness"
   }
 ]
