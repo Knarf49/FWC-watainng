@@ -7,18 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="flex">
+    <div class="calculator">
         <input type="text" id="inp1">
+        
+        <select name="opt" id="opt">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+            <option value="mod">%</option>
+        </select>
+        
         <input type="text" id="inp2">
+        
+        <button id="submit_btn">Try me!</button>
     </div>
-    <select name="opt" id="opt">
-        <option value="plus">+</option>
-        <option value="minus">-</option>
-        <option value="multiply">*</option>
-        <option value="divide">/</option>
-        <option value="mod">%</option>
-    </select>
-    <button id="submit_btn">Try me!</button>
 
     <script src="calc.js"></script>
 </body>
