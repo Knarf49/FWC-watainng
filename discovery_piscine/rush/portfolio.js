@@ -3,18 +3,15 @@ $(document).ready(function () {
     $.each(projects, function (idx, proj) {
       const $card = $($("#project-card-template").html());
 
-      // ถ้าไม่มี image_url ให้ใส่รูประบายสีเทาๆ (Placeholder) แทน
       const imageUrl = proj.image_url
         ? proj.image_url
-        : "https://via.placeholder.com/300x150";
+        : "https://placehold.co/300x150";
       $card.find(".project-img").attr("src", imageUrl);
       $card.find(".category-text").text(proj.category);
       $card.find(".title-text").text(proj.title);
       $card.find(".desc-text").text(proj.description);
       $card.find(".tech-text span").text(proj.tech_stack.join(", "));
-      $card
-        .find(".github-link")
-        .attr("href", "https://github.com/Knarf49/" + proj.repository_name);
+      $card.find(".github-link").attr("href", proj.url ? proj.url : "#");
 
       $("#showcase-container").append($card);
     });

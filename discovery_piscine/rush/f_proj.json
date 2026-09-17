@@ -5,6 +5,7 @@
     "description": "Code submittion website for CE-Boostup-XIV camp",
     "tech_stack": ["Next.js"],
     "repository_name": "CE-Boostup-XIV-Frontend",
+    "url": "https://github.com/CE64-KMITL/CE-Boostup-XIV-Frontend-Student.git",
     "image_url": "./images/watainng/ceboostup.svg",
     "category": "Education"
   },
@@ -14,6 +15,7 @@
     "description": "Noodle restaurant POS",
     "tech_stack": ["SvelteKit", "Go", "sqlite"],
     "repository_name": "Moom-aroi",
+    "url": "https://github.com/Knarf49/Moom-aroi",
     "image_url": "./images/watainng/Moom-aroi-pos.png",
     "category": "Saas"
   },
@@ -24,6 +26,7 @@
     "description": "AI chatbot for delivery service.",
     "tech_stack": ["html", "css", "js", "Python", "ollama"],
     "repository_name": "AI Chatbot",
+    "url": "https://github.com/Knarf49/S36-bot",
     "image_url": "./images/watainng/S36-bot.png",
     "category": "AI"
   },
@@ -33,6 +36,7 @@
     "description": "An Python mcp connect to LLM",
     "tech_stack": ["Python"],
     "repository_name": "FitLife-Smart-Gym",
+    "url": "https://github.com/Knarf49/FitLife-Smart-Gym",
     "image_url": "./images/watainng/Fitlife-smartgym.png",
     "category": "Health & Fitness"
   }
